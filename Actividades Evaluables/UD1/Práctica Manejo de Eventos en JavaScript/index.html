@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Interactivos</title>
+</head>
+
+<body>
+
+    <h1>Ejercicios Interactivos</h1>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 1: Click y Doble Click -->
+    <section class="ejercicio">
+        <h2>Ejercicio 1: Click y Doble Click</h2>
+        <div id="miCuadro"></div>
+    </section>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 2: Hover con Mouseenter y Mouseleave -->
+    <section class="ejercicio">
+        <h2>Ejercicio 2: Hover con Mouseenter y Mouseleave</h2>
+        <p id="miParrafo">Pasa el ratón por encima de este texto.</p>
+    </section>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 3: preventDefault en Formularios -->
+    <section>
+        <h2>Ejercicio 3: Validación de Formulario</h2>
+        <form id="miFormulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br><br>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 4: keydown y keyup -->
+    <section>
+        <h2>Ejercicio 4: Contador de Espacios</h2>
+        <p><span id="contador">0</span></p>
+    </section>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 5: focus y blur en Formularios -->
+    <section>
+        <h2>Ejercicio 5: focus y blur en Formularios</h2>
+        <label for="miCampoTexto">Campo de Texto:</label>
+        <input type="text" id="miCampoTexto" placeholder="Introduce tu texto aquí">
+    </section>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 6: addEventListener y removeEventListener -->
+    <section id="miSeccion">
+        <h2>Ejercicio 6: addEventListener y removeEventListener</h2>
+        <p>Haz click en esta sección para cambiar su color.</p>
+    </section>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 7: Propagación de Eventos con stopPropagation -->
+    <div id="outer" style="padding: 30px; background-color: lightblue;">Outer
+        <div id="inner" style="padding: 30px; background-color: lightcoral;">Inner
+            <div id="inner2" style="padding: 30px; background-color: lightgreen;">Inner 2</div>
+        </div>
+    </div>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 8: Resize con Eventos de Navegador -->
+    <section>
+        <h2>Ejercicio 8: Resize con Eventos de Navegador</h2>
+        <p id="tamañoVentana">Tamaño de la ventana: </p>
+    </section>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 9: keydown, keyup y keypress para detectar teclas -->
+    <section>
+        <h2>Ejercicio 9: Detección de Teclas</h2>
+        <input type="text" id="miInput" placeholder="Escribe algo" />
+        <p id="mensaje"></p>
+    </section>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 10: Evento input en Formularios -->
+    <section>
+        <h2>Ejercicio 10: Evento input en Formularios</h2>
+        <input type="text" id="textInput" placeholder="Escribe algo aquí..." />
+        <p id="textLength">Longitud del texto: 0</p>
+        <p id="warning" style="color: red; display: none;">Advertencia: Has superado los 10 caracteres.</p>
+    </section>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 11: focus y blur en Formularios -->
+    <section>
+        <h2>Ejercicio 11: focus y blur en Formularios</h2>
+        <input type="text" id="inputFocusBlur" placeholder="Escribe algo aquí..." />
+    </section>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 12: submit y preventDefault() -->
+    <section>
+        <h2>Ejercicio 12: submit y preventDefault()</h2>
+        <form id="miFormulario">
+            <label for="nombreInput">Nombre:</label>
+            <input type="text" id="nombreInput" placeholder="Escribe tu nombre" />
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensaje"></p>
+    </section>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 13: mouseenter y mouseleave -->
+    <section>
+        <h2>Ejercicio 13: mouseenter y mouseleave</h2>
+        <div id="hoverDiv"
+            style="width: 200px; height: 100px; background-color: lightblue; text-align: center; line-height: 100px; cursor: pointer;">
+            Pasa el cursor por aquí
+        </div>
+        <p id="hoverMessage"></p>
+    </section>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 14: Visualización de coordenadas dentro de una sección específica -->
+    <section>
+        <h2>Ejercicio 14: Coordenadas del Ratón</h2>
+        <div id="trackingArea" style="width: 300px; height: 200px; border: 2px solid black; position: relative;">
+            <p id="coordinates" style="margin: 0; padding: 10px;">Posición del ratón: </p>
+        </div>
+    </section>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 15: target y currentTarget -->
+    <section>
+        <h2>Ejercicio 15: target y currentTarget</h2>
+        <div id="clickArea">
+            <p class="clickable">Elemento 1</p>
+            <p class="clickable">Elemento 2</p>
+            <p class="clickable">Elemento 3</p>
+        </div>
+        <p id="output">Haz clic en un elemento para ver su texto aquí.</p>
+    </section>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 16: stopPropagation() -->
+    <section>
+        <h2>Ejercicio 16: stopPropagation()</h2>
+
+        <div id="grandpa" style="width: 300px; height: 300px; background-color: lightcoral; padding: 20px;">Abuelo
+            <div id="father" style="width: 200px; height: 200px; background-color: lightblue; padding: 20px;">Padre
+                <div id="son" style="width: 100px; height: 100px; background-color: lightgreen;">
+                    Hijo
+                </div>
+            </div>
+        </div>
+
+        <p id="showMessage"></p>
+    </section>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 17: DOMContentLoaded -->
+    <section>
+        <h2>Ejercicio 17: DOMContentLoaded</h2>
+        <div id="messageLoad">Cargando contenido, por favor espera...</div>
+    </section>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 18: scroll en el Navegador -->
+    <section style="height: 200vh; padding: 20px;">
+        <h2>Ejercicio 18: Evento scroll</h2>
+        <p id="porcentajeScroll">Porcentaje de scroll: 0%</p>
+        <p style="margin-top: 50px;">Desplázate hacia abajo para ver el efecto del cambio de color de fondo y el
+            porcentaje de scroll.</p>
+    </section>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 19: dragenter y dragleave -->
+    <section>
+        <h2>Ejercicio 19: dragenter y dragleave</h2>
+
+        <!-- Elemento arrastrable -->
+        <div id="arrastrable" draggable="true"
+            style="width: 100px; height: 100px; background-color: lightblue; text-align: center; line-height: 100px; margin-bottom: 20px;">
+            Arrástrame
+        </div>
+
+        <!-- Área de destino -->
+        <div id="areaDestino"
+            style="width: 300px; height: 150px; border: 2px dashed gray; text-align: center; line-height: 150px;">
+            Suelta aquí
+        </div>
+    </section>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <!-- Ejercicio 20: drop para Completar Arrastres -->
+    <section>
+        <h2>Ejercicio 20: Evento drop</h2>
+
+        <div id="draggable" draggable="true"
+            style="width: 100px; height: 100px; background-color: lightcoral; text-align: center; line-height: 100px; margin-bottom: 20px;">
+            Arrástrame
+        </div>
+
+        <div id="destinationArea"
+            style="width: 300px; height: 150px; border: 2px dashed gray; text-align: center; line-height: 150px;">
+            Suelta aquí
+        </div>
+    </section>
+
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+
+    <script src="script.js"></script>
+</body>
+
+</html>

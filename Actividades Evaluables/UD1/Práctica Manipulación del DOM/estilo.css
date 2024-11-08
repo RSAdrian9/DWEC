@@ -1,0 +1,10 @@
+.fila-par {
+	background-color: lightgray;
+}
+.fila-impar {
+	background-color: white;
+}
+.fila-marcada {
+	background-color: yellow;
+	font-weight: bold;
+}
