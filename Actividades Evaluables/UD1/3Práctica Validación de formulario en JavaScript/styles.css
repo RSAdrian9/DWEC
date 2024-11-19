@@ -1,0 +1,69 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para el encabezado */
+h1 {
+    text-align: center;
+    /* Alinea el texto al centro */
+    margin-bottom: 20px;
+    /* Espacio debajo del h1 */
+    color: #333;
+}
+
+/* Estilo para el formulario */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    /* Ancho del formulario */
+    text-align: left;
+    /* Alinea el contenido del formulario a la izquierda */
+}
+
+/* Estilo para las etiquetas y campos */
+label {
+    display: block;
+    /* Hace que las etiquetas estén en líneas separadas */
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    /* Ocupa todo el ancho disponible */
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004c99;
+}
+
+/* Estilo para los mensajes de error */
+span {
+    color: #ff0000;
+    font-size: 0.9em;
+    margin-top: -5px;
+}
