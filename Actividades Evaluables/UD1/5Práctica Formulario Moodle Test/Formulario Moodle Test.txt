@@ -1,0 +1,7 @@
+Reto 4: Crea una versión de la herramienta online para creación de preguntas tipo test para moodle text2gift. 
+
+Manejo de ficheros
+Codificar: JavaScript orientado a objetos
+
+Array de strings compuesto --> si es verdadera o falsa
+Frontend con javascript, uso de blob(tipo de dato).
