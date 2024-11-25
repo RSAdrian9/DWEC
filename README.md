@@ -10,25 +10,25 @@ Este repositorio contiene las actividades evaluables y ejercicios prácticos del
 
 Actividades prácticas evaluables para el módulo DWEC:
 
-1. [Práctica Herramientas de desarrollo de clientes Web](./0Práctica%20Herramientas%20de%20desarrollo%20de%20clientes%20Web)
+1. [Práctica Herramientas de desarrollo de clientes Web](.Actividades Evaluables/UD1/1Práctica%20Herramientas%20de%20desarrollo%20de%20clientes%20Web)
    - **Descripción**: Introducción a herramientas esenciales para el desarrollo en entornos web como navegadores, inspección de elementos, y consolas de desarrollo.
 
-2. [Práctica Manipulación del DOM](./1Práctica%20Manipulación%20del%20DOM)
+2. [Práctica Manipulación del DOM](./2Práctica%20Manipulación%20del%20DOM)
    - **Descripción**: Ejercicios prácticos para aprender a interactuar con el DOM utilizando JavaScript.
 
-3. [Práctica Manejo de Eventos en JavaScript](./2Práctica%20Manejo%20de%20Eventos%20en%20JavaScript)
+3. [Práctica Manejo de Eventos en JavaScript](./3Práctica%20Manejo%20de%20Eventos%20en%20JavaScript)
    - **Descripción**: Implementación de eventos en JavaScript para mejorar la interacción del usuario.
 
-4. [Práctica Validación de formulario en JavaScript](./3Práctica%20Validación%20de%20formulario%20en%20JavaScript)
+4. [Práctica Validación de formulario en JavaScript](./4Práctica%20Validación%20de%20formulario%20en%20JavaScript)
    - **Descripción**: Validar formularios de manera eficiente utilizando JavaScript.
 
-5. [Práctica Formulario sobre Proyecto AMarín](./4Práctica%20Formulario%20sobre%20Proyecto%20AMarín)
+5. [Práctica Formulario sobre Proyecto AMarín](./5Práctica%20Formulario%20sobre%20Proyecto%20AMarín)
    - **Descripción**: Creación y manejo de un formulario basado en un caso práctico.
 
-6. [Práctica Formulario Moodle Test](./5Práctica%20Formulario%20Moodle%20Test)
+6. [Práctica Formulario Moodle Test](./6Práctica%20Formulario%20Moodle%20Test)
    - **Descripción**: Desarrollo de un formulario interactivo simulando un test Moodle.
 
-7. [Uso de Eventos y Traversing en el DOM](./6Uso%20de%20Eventos%20y%20traversing%20en%20el%20dom)
+7. [Uso de Eventos y Traversing en el DOM](./7Uso%20de%20Eventos%20y%20traversing%20en%20el%20dom)
    - **Descripción**: Técnicas avanzadas de manejo de eventos y navegación por el DOM.
 
 ---
