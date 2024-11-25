@@ -10,25 +10,25 @@ Este repositorio contiene las actividades evaluables y ejercicios prácticos del
 
 Actividades prácticas evaluables para el módulo DWEC:
 
-1. [Práctica Herramientas de desarrollo de clientes Web](.Actividades%20Evaluables/UD1/1Práctica%20Herramientas%20de%20desarrollo%20de%20clientes%20Web)
+1. **Práctica Herramientas de desarrollo de clientes Web**
    - **Descripción**: Introducción a herramientas esenciales para el desarrollo en entornos web como navegadores, inspección de elementos, y consolas de desarrollo.
 
-2. [Práctica Manipulación del DOM](.Actividades%20Evaluables/UD1/2Práctica%20Manipulación%20del%20DOM)
+2. **Práctica Manipulación del DOM**
    - **Descripción**: Ejercicios prácticos para aprender a interactuar con el DOM utilizando JavaScript.
 
-3. [Práctica Manejo de Eventos en JavaScript](.Actividades%20Evaluables/UD1/3Práctica%20Manejo%20de%20Eventos%20en%20JavaScript)
+3. **Práctica Manejo de Eventos en JavaScript**
    - **Descripción**: Implementación de eventos en JavaScript para mejorar la interacción del usuario.
 
-4. [Práctica Validación de formulario en JavaScript](.Actividades%20Evaluables/UD1/4Práctica%20Validación%20de%20formulario%20en%20JavaScript)
+4. **Práctica Validación de formulario en JavaScript**
    - **Descripción**: Validar formularios de manera eficiente utilizando JavaScript.
 
-5. [Práctica Formulario sobre Proyecto AMarín](.Actividades%20Evaluables/UD1/5Práctica%20Formulario%20sobre%20Proyecto%20AMarín)
+5. **Práctica Formulario sobre Proyecto AMarín**
    - **Descripción**: Creación y manejo de un formulario basado en un caso práctico.
 
-6. [Práctica Formulario Moodle Test](.Actividades%20Evaluables/UD1/6Práctica%20Formulario%20Moodle%20Test)
+6. **Práctica Formulario Moodle Test**
    - **Descripción**: Desarrollo de un formulario interactivo simulando un test Moodle.
 
-7. [Uso de Eventos y Traversing en el DOM](.Actividades%20Evaluables/UD1/7Uso%20de%20Eventos%20y%20traversing%20en%20el%20dom)
+7. **Uso de Eventos y Traversing en el DOM**
    - **Descripción**: Técnicas avanzadas de manejo de eventos y navegación por el DOM.
 
 ---
@@ -37,18 +37,18 @@ Actividades prácticas evaluables para el módulo DWEC:
 
 Ejercicios adicionales para reforzar conocimientos de JavaScript:
 
-1. [Introducción a JavaScript](./1.%20Introducción%20a%20JavaScript)
+1. **Introducción a JavaScript**
    - **Descripción**: Ejercicios básicos para aprender los fundamentos de JavaScript.
    - **Temas clave**: Variables, operadores, estructuras de control y funciones básicas.
 
-2. [Funciones](./3.%20Funciones)
+2. **Funciones**
    - **Descripción**: Prácticas sobre la creación y uso de funciones en JavaScript.
    - **Temas clave**: Declaración de funciones, parámetros, valores de retorno y funciones anónimas.
 
-3. [Guía Introducción JavaScript.pdf](./Guía%20Introducción%20JavaScript.pdf)
+3. **Guía Introducción JavaScript.pdf**
    - **Descripción**: Un documento en formato PDF con teoría y ejemplos de introducción a JavaScript.
 
-4. [script.js](./script.js)
+4. **script.js**
    - **Descripción**: Archivo JavaScript de referencia con ejemplos prácticos.
 
 ---
