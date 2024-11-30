@@ -1,0 +1,95 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Encabezado y navegación */
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #005bb5;
+}
+
+/* Secciones */
+section {
+    display: none;
+    padding: 20px;
+}
+
+section.active {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Botones y formularios */
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: monospace;
+}
+
+button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.options {
+    margin-bottom: 10px;
+}
+
+.options label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.options input, .options select {
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+}
