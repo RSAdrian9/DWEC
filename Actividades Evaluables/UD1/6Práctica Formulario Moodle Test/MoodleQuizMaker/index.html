@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor GIFT con Penalización</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor a Formato GIFT</h1>
+        <p>
+            Escribe tus preguntas y respuestas en el área de texto. Indica las respuestas correctas con un asterisco (<strong>*</strong>). 
+            Separa cada pregunta con una línea en blanco. Configura la penalización para respuestas incorrectas si lo deseas.
+        </p>
+
+        <label for="penaltySingle">Penalización por respuesta incorrecta (Única respuesta):</label>
+        <select id="penaltySingle">
+            <option value="0.0" selected>0%</option>
+            <option value="-5">-5%</option>
+            <option value="-10">-10%</option>
+            <option value="-11.11111">-11.111%</option>
+            <option value="-12.5">-12.5%</option>
+            <option value="-14.28571">-14.286%</option>
+            <option value="-16.66667">-16.666%</option>
+            <option value="-20">-20%</option>
+            <option value="-25">-25%</option>
+            <option value="-30">-30%</option>
+            <option value="-33.33333">-33.333%</option>
+            <option value="-40">-40%</option>
+            <option value="-50">-50%</option>
+            <option value="-60">-60%</option>
+            <option value="-66.66667">-66.666%</option>
+            <option value="-70">-70%</option>
+            <option value="-75">-75%</option>
+            <option value="-80">-80%</option>
+            <option value="-83.33333">-83.333%</option>
+            <option value="-90">-90%</option>
+            <option value="-100">-100%</option>
+        </select>
+        <br><br>
+
+        <label for="penaltyMultiple">Penalización por respuesta incorrecta (Respuesta múltiple):</label>
+        <select id="penaltyMultiple">
+            <option value="0.0" selected>0%</option>
+            <option value="-5">-5%</option>
+            <option value="-10">-10%</option>
+            <option value="-11.11111">-11.111%</option>
+            <option value="-12.5">-12.5%</option>
+            <option value="-14.28571">-14.286%</option>
+            <option value="-16.66667">-16.666%</option>
+            <option value="-20">-20%</option>
+            <option value="-25">-25%</option>
+            <option value="-30">-30%</option>
+            <option value="-33.33333">-33.333%</option>
+            <option value="-40">-40%</option>
+            <option value="-50">-50%</option>
+            <option value="-60">-60%</option>
+            <option value="-66.66667">-66.666%</option>
+            <option value="-70">-70%</option>
+            <option value="-75">-75%</option>
+            <option value="-80">-80%</option>
+            <option value="-83.33333">-83.333%</option>
+            <option value="-90">-90%</option>
+            <option value="-100">-100%</option>
+        </select>
+        <br><br>
+
+        <label for="questionType">Tipo de pregunta:</label>
+        <select id="questionType">
+            <option value="single">Única respuesta</option>
+            <option value="multiple">Respuesta múltiple</option>
+            <option value="auto">Elección automática</option>
+        </select>
+        <br><br>
+
+        <textarea id="input" rows="15" placeholder="Escribe aquí tus preguntas..."></textarea>
+        <div class="buttons">
+            <button onclick="clearTextarea()">Limpiar</button>
+            <button onclick="convertToGIFT()">Convertir a GIFT</button>
+        </div>
+
+        <h2>Vista previa (formato GIFT):</h2>
+        <pre id="output"></pre>
+        <br>
+        <div class="buttons">
+            <h2>Descargar o copiar al portapapeles:</h2>
+            <button onclick="downloadFile()">Descargar .txt</button>
+            <button onclick="copyToClipboard()">Copiar al portapapeles</button>
+        </div>
+
+
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
